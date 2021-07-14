@@ -1,0 +1,18 @@
+{
+  "name": "tadaimaoco.github.io",
+  "version": "1.0.0",
+  "description": "These are the files for Tadaimao and Co's Website",
+  "main": "index.html",
+  "repository": "https://github.com/tadaimaoco/tadaimaoco.github.io.git",
+  "author": "theonikolai",
+  "license": "GPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "dependencies": {
+    "prettier": "^2.3.2"
+  }
+}
