@@ -1,4 +1,5 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS and IE text size adjust after device orientation change,
@@ -6,10 +7,13 @@
  */
 html {
   font-family: sans-serif;
+
   /* 1 */
   -ms-text-size-adjust: 100%;
+
   /* 2 */
   -webkit-text-size-adjust: 100%;
+
   /* 2 */
 }
 
@@ -22,6 +26,7 @@ body {
 
 /* HTML5 display definitions
    ========================================================================== */
+
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11
@@ -53,8 +58,10 @@ canvas,
 progress,
 video {
   display: inline-block;
+
   /* 1 */
   vertical-align: baseline;
+
   /* 2 */
 }
 
@@ -78,6 +85,7 @@ template {
 
 /* Links
    ========================================================================== */
+
 /**
  * Remove the gray background color from active links in IE 10.
  */
@@ -96,6 +104,7 @@ a:hover {
 
 /* Text-level semantics
    ========================================================================== */
+
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
@@ -163,6 +172,7 @@ sub {
 
 /* Embedded content
    ========================================================================== */
+
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
@@ -179,6 +189,7 @@ svg:not(:root) {
 
 /* Grouping content
    ========================================================================== */
+
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
@@ -208,16 +219,18 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: monospace;
   font-size: 1em;
 }
 
 /* Forms
    ========================================================================== */
+
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
  */
+
 /**
  * 1. Correct color not being inherited.
  *    Known issue: affects color of disabled elements.
@@ -230,10 +243,13 @@ optgroup,
 select,
 textarea {
   color: inherit;
+
   /* 1 */
   font: inherit;
+
   /* 2 */
   margin: 0;
+
   /* 3 */
 }
 
@@ -268,8 +284,10 @@ button,
 html input[type="button"],
 input[type="reset"] {
   -webkit-appearance: button;
+
   /* 2 */
   cursor: pointer;
+
   /* 3 */
 }
 
@@ -282,20 +300,20 @@ html input[disabled] {
 }
 
 /**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+
+/**
  * Remove inner padding and border in Firefox 4+.
  */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
-}
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-input {
-  line-height: normal;
 }
 
 /**
@@ -308,8 +326,10 @@ input {
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
+
   /* 1 */
   padding: 0;
+
   /* 2 */
 }
 
@@ -330,6 +350,7 @@ input[type="number"]::-webkit-outer-spin-button {
  */
 input[type="search"] {
   -webkit-appearance: none;
+
   /* 1 */
 }
 
@@ -358,8 +379,10 @@ fieldset {
  */
 legend {
   border: 0;
+
   /* 1 */
   padding: 0;
+
   /* 2 */
 }
 
@@ -380,6 +403,7 @@ optgroup {
 
 /* Tables
    ========================================================================== */
+
 /**
  * Remove most spacing between table cells.
  */
